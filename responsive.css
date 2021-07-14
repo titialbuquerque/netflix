@@ -1,0 +1,20 @@
+﻿tela @media e ( largura máxima : 700 px ) {
+    . cabeça . container {
+        display : flex;
+        direção flexível : coluna;
+    }
+    . botao {
+        margem superior :  5 px ;
+        largura :  200 px ;
+    }
+}
+
+tela @media e ( largura mínima : 1000 px ) {
+    . descricao {
+        largura :  50 % ;
+    }
+    . filme-principal {
+        altura :  700 px ;
+        margem inferior :  5 px ;
+    }
+}

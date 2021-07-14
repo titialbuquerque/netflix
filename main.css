@@ -1,0 +1,102 @@
+﻿: root {
+    --vermelho :  # e50914 ;
+    --preta :  # 141414 ;
+}
+
+
+* {
+    margem :  0 ;
+    preenchimento :  0 ;
+    dimensionamento da caixa : caixa de borda;
+}
+/ * elementos base * /
+corpo {
+    fundo :  var ( --preta );
+    família da fonte :  'Arial' , Times , serif;
+    cor : branco;
+}
+
+cabeçalho . container {
+  display : flex;
+  direção flexível : fileira;
+  alinhar-itens : centro;
+  justify-content : espaço entre;
+}
+
+cabeçalho . logo {
+    cor :  var ( --vermelho );
+    família de fontes :  'Arial Black' , Times;
+    tamanho da fonte :  40 px ;
+}
+
+header  nav  a {
+    decoração de texto : nenhum;
+    cor :  # AAA ;
+    margem direita :  10 px ;
+}
+header  nav  a : hover {
+    cor : # fff ;
+}
+
+. filme-principal {
+    tamanho da fonte : 16 px ;
+    imagem de fundo :  gradiente linear ( rgba ( 0 , 0 , 0 , .50 ) , rgba ( 0 , 0 , 0 , .50 ) 100 % ) ,   url ( "../img/capa-house.jpg" ) ;
+
+    altura :  400 px ;
+    tamanho do fundo : capa;
+ 
+
+    display : flex;
+    direção flexível : coluna;
+    justificar o conteúdo : centro;
+    alinhar-itens : flex-start;
+}
+
+. filme-principal . descricao {
+    margem inferior :  40 px ;
+    margem superior :  15 px ;
+}
+
+. titulo {
+    tamanho da fonte :  40 px ;
+    margem superior :  15 % ;
+}
+
+. filme-principal . botao {
+    cor de fundo :  rgba ( 0 , 0 , 0 , .50 );
+    fronteira : nenhum;
+    cor : branco;
+
+    preenchimento :  15 px  30 px ;
+    margem direita :  15 px ;
+    tamanho da fonte :  12 px ;
+    família da fonte :  'Trebuchet MS' ,  'Lucida Sans Unicode' ,  'Lucida Grande' ,  'Lucida Sans' , Arial , sans-serif;
+    transição :  1 s facilita tudo;
+}
+
+. botao : hover {
+    fundo : branco;
+    cor : preto;
+}
+
+. botao  i {
+    margem direita :  10 px ;
+}
+
+. container {
+    margem esquerda :  20 px ;
+}
+
+. filme-principal . container {
+    largura :  60 % ;
+}
+
+. box-filme {
+    altura :  100 % ;
+    largura :  100 % ;
+    display : bloco;
+}
+
+. carrossel-filmes {
+    margem superior :  5 ;
+}
